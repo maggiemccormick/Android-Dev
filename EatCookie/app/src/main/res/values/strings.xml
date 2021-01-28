@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eat Cookie</string>
+    <string name="hungry">"I'm so hungry!"</string>
+    <string name="full">"I'm so full!"</string>
+    <string name="btn_eat">Eat cookie</string>
+    <string name="btn_full">Done</string>
+    <string name="img_hungry">Hungry</string>
+    <string name="img_full">Full</string>
+</resources>
