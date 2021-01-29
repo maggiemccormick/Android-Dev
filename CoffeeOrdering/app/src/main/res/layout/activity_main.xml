@@ -35,6 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="setCream"
             android:text="@string/cream" />
 
         <CheckBox
@@ -42,6 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="setChoc"
             android:text="@string/chocolate" />
     </LinearLayout>
 
@@ -61,7 +63,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="169dp"
         android:layout_height="55dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,6 +74,7 @@
             android:layout_width="56dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="decrement"
             android:text="@string/minus" />
 
         <TextView
@@ -87,6 +90,7 @@
             android:layout_width="59dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="increment"
             android:text="@string/plus" />
     </LinearLayout>
 
@@ -94,7 +98,7 @@
         android:id="@+id/summaryTxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="@string/summary"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -107,7 +111,7 @@
         android:id="@+id/orderSumTxtView"
         android:layout_width="229dp"
         android:layout_height="110dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/order_sum"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
@@ -118,8 +122,9 @@
         android:id="@+id/coffeeImage"
         android:layout_width="164dp"
         android:layout_height="122dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/coffee2b" />
@@ -130,6 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/order_button"
+        android:onClick="computeOrder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
