@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Burger Calorie Counter</string>
+
+    <string name="one">Black Bean Patty</string>
+    <string name="two">Beyond Patty</string>
+    <string name="three">Portabello Patty</string>
+
+    <string name="onions">Onions</string>
+    <string name="cheddar">Cheddar Cheeze</string>
+    <string name="avocado">Avocado</string>
+
+    <string name="sauce">Mayonnaise sauce up to one tablespoon:</string>
+    <string name="calorie">Calories?</string>
+</resources>
