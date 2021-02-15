@@ -1,0 +1,7 @@
+com/mccormick/bmicalculatorapp/BuildConfig.java
+ com.mccormick.bmicalculatorapp.BuildConfig
+com/mccormick/bmicalculatorapp/Calculator.java
+ com.mccormick.bmicalculatorapp.Calculator
+com/mccormick/bmicalculatorapp/MainActivity.java
+ com.mccormick.bmicalculatorapp.MainActivity
+ com.mccormick.bmicalculatorapp.MainActivity$1
